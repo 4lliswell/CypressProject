@@ -1,0 +1,21 @@
+{
+  "name": "cypressproject",
+  "version": "1.0.0",
+  "description": "Kitap Yurdu Project",
+  "main": "index.js",
+  "scripts": {
+    "chrome": "cypress open --e2e --browser chrome",
+    "firefox": "cypress open --e2e --browser firefox",
+    "headed": "cypress run --headed",
+    "headless": "cypress run --headless",
+    "tags": "npx cypress run --env grepTags=@kitapYurdu",
+    "report": " npx cypress run --spec '../CypressProject/cypress/e2e'"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cypress/grep": "^4.1.0",
+    "cypress": "^13.13.1",
+    "cypress-mochawesome-reporter": "^3.8.2"
+  }
+}
