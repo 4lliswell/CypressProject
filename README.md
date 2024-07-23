@@ -35,12 +35,17 @@ To run the tests using Cypress:
 1. Open Cypress test runner:
 
    ```
-   npx cypress open
+   npm cypress chrome
+   ```
+2. With Cypress to get mochawesome report:
+
+   ```
+   npm cypress report
    ```
 
-2. Once the Cypress window opens, click on the test file `kitapyurdu.spec.js` to run the tests.
+3. Once the Cypress window opens, click on the test file `kitapyurdu.spec.js` to run the tests.
 
-3. The tests will execute in the Cypress window, interacting with the Kitapyurdu website as per the defined steps.
+4. The tests will execute in the Cypress window, interacting with the Kitapyurdu website as per the defined steps.
 
 ## Tests Included
 
