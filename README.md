@@ -43,7 +43,7 @@ To run the tests using Cypress:
    npm cypress report
    ```
 
-3. Once the Cypress window opens, click on the test file `kitapyurdu.spec.js` to run the tests.
+3. Once the Cypress window opens, click on the test file `kitapyurdu.cy.js` to run the tests.
 
 4. The tests will execute in the Cypress window, interacting with the Kitapyurdu website as per the defined steps.
 
