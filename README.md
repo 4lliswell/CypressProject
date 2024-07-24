@@ -1,7 +1,3 @@
-Certainly! Below is a basic README file template for your Cypress project, outlining the steps you've described for testing the Kitapyurdu website. You can modify and expand upon this template as needed:
-
----
-
 # Cypress Test Project for Kitapyurdu Website
 
 This repository contains Cypress tests for the Kitapyurdu website, focusing on various functionalities such as searching for books, adding items to the cart, and verifying cart operations.
